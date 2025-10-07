@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Sitemap: https://climaxknits.com/sitemap.xml
+
+# Block access to CSS and JS files for better crawl budget
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /dist/
+
+# Allow Google to crawl CSS and JS
+User-agent: Googlebot
+Allow: /css/
+Allow: /js/
